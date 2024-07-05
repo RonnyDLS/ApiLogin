@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <article>
+        <div class="content fondoRegi">
+            <form class="formulario_regi" id="form_regi" >
+                <h1>Registrate</h1>
+
+                <div class="datos">
+                    <div class="nombre_regi">
+                        <P>Nombre</P>
+                        <input name="nombre_regi" type="text" required>
+                    </div>
+                    <div class="apellido_regi">
+                        <P>Apellido</P>
+                        <input name="apellido_regi" type="text" required>
+                    </div>
+                    <div class="email_regi">
+                        <P>Email</P>
+                        <input name="email_regi" type="email" required>
+                    </div>
+                    <div class="password_regi">
+                        <P>Password</P>
+                        <input name="password_regi" type="password" required>
+                    </div>
+                </div>
+                
+                <div class="boton_guardar">
+                    <a href="Login.html">Cancelar</a><button type="submit">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </article>
+
+    <script src="logicRegistro.js"></script>
+</body>
+</html>

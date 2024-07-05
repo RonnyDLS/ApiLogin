@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    <div class="contentBien">
+        <div class="volver"><a href="Login.html">Volver</a></div>
+        <div class="fondoTrasparete">
+            <div class="caja">
+                <h1>Bienvenid@</h1>
+                <p id="nombreCompleto"></p>
+            </div>
+        </div>
+    </div>
+    <script> 
+
+    var datosUser = localStorage.getItem('datosUser');
+    var user = JSON.parse(datosUser);
+    //console.log(datosUser)
+    document.getElementById('nombreCompleto').innerHTML = user.nombre+' '+user.apellido;
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+/* ----- Login----- */
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo{
+    background-image: url(img/login1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.formularioLogin{
+    background-color: rgba(255, 255, 255, 0.436);
+    width: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 17px;
+    border-radius: 20px;
+    color: rgb(60, 60, 60);
+}
+.formularioLogin>h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(1, 57, 169);
+}
+.user>input,.password>input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(240, 240, 240, 0.425);
+    border: solid rgb(173, 173, 173) 1px;
+    color: gray;
+}
+.boton_enviar>button{
+    padding: 13px 30px;
+    background-color: rgb(1, 57, 169);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.registrar{
+    font-size: 15px;
+    text-align: end;
+}
+.registrar>a{
+    color: rgb(59, 59, 221);
+}
+
+.boton_enviar>button:hover{
+    background-color: rgb(3, 41, 116);
+    cursor: pointer;
+}
+
+
+/*--------- Registro ---------*/
+
+.formulario_regi{
+    background-color: rgba(255, 255, 255, 0.751);
+    padding: 50px;
+    border-radius: 10px;
+    width: 600px;
+}
+.fondoRegi{
+    background-image: url(img/login2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.datos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 30px 0;
+}
+.datos>div>input{
+    padding: 7px;
+    font-size: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    color: gray;
+    width: 100%;
+}
+.boton_guardar{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.boton_guardar>button, .boton_guardar>a{
+    padding: 13px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+    width: 100%;
+    cursor: pointer;
+}
+.boton_guardar>button{
+    background-color: rgb(34, 134, 74);
+}
+.boton_guardar>a{
+    text-decoration: none;
+    background-color: rgb(225, 69, 69);
+}
+
+/* ----- Bienvenida ----- */
+.contentBien{
+    background-image: url(img/Bienvenida3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.fondoTrasparete{
+    display: flex;
+    height: 94vh;
+}
+.caja{
+    background-color: rgba(12, 49, 92, 0.848);
+    width: 100%;
+    padding: 60px 0;
+    display: block;
+    text-align: center;
+    margin: auto auto;
+}
+.caja>h1{
+    font-size: 100px;
+    font-family: 'Cooper Black';
+    margin-bottom: 1rem;
+    color: rgb(216, 16, 238);
+}
+.caja>p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+}
+.volver{text-align: center;
+}
+.volver>a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: blueviolet;
+    padding: 10px;
+    transition: 0.3S;
+}
+.volver>a:hover{
+    background-color: rgb(113, 33, 187);
+}
