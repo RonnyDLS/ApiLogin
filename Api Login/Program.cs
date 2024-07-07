@@ -1,4 +1,7 @@
 
+using Api_Login.Interfaces;
+using Api_Login.Servicios;
+
 namespace Api_Login
 {
     public class Program
@@ -13,6 +16,12 @@ namespace Api_Login
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddScoped<IRegistrarUsuario, RegistrarUsuarioService>();
+            builder.Services.AddScoped<IGetUsuarios, GetUsuariosSevice>();
+            builder.Services.AddScoped<IValidarLogin, ValidarLoginService>();
+            builder.Services.AddScoped<IContacto, AddContactoService>();
+            builder.Services.AddScoped<IEditarContacto, EditarContactoService>();
+            builder.Services.AddScoped<IEliminarContacto, EliminarContactoServices>();
 
             var app = builder.Build();
 

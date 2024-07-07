@@ -3,20 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|c:\\users\\ronny\\source\\repos\\api login\\api\\api login\\models\\leerregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\models\\leerregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\registros.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\registros.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|c:\\users\\ronny\\source\\repos\\api login\\api\\api login\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|c:\\users\\ronny\\source\\repos\\api login\\api\\api login\\servicios\\addcontactoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\servicios\\addcontactoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|c:\\users\\ronny\\source\\repos\\api login\\api\\api login\\models\\guardarregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\models\\guardarregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|c:\\users\\ronny\\source\\repos\\api login\\api\\api login\\registros.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\registros.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\interfaces\\icontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\interfaces\\icontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|c:\\users\\ronny\\source\\repos\\api login\\api\\api login\\servicios\\eliminarcontactoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\servicios\\eliminarcontactoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|c:\\users\\ronny\\source\\repos\\api login\\api\\api login\\servicios\\editarcontactoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\servicios\\editarcontactoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|c:\\users\\ronny\\source\\repos\\api login\\api\\api login\\interfaces\\ieliminarcontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\interfaces\\ieliminarcontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|c:\\users\\ronny\\source\\repos\\api login\\api\\api login\\interfaces\\ieditarcontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\interfaces\\ieditarcontacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\servicios\\getusuariossevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\servicios\\getusuariossevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\servicios\\registrarusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\servicios\\registrarusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\models\\dbuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\models\\dbuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\models\\usuariocredenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\models\\usuariocredenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\models\\validarlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\models\\validarlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\interfaces\\ivalidarlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\interfaces\\ivalidarlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\servicios\\validarloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\servicios\\validarloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\interfaces\\igetusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\interfaces\\igetusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\interfaces\\iregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\interfaces\\iregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\api login\\api login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1AF980CC-A0CB-4058-A69C-144B20AD391B}|Api Login\\Api Login.csproj|solutionrelative:api login\\api login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +102,268 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EliminarContactoServices.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\EliminarContactoServices.cs",
+              "RelativeDocumentMoniker": "Api Login\\Servicios\\EliminarContactoServices.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\EliminarContactoServices.cs",
+              "RelativeToolTip": "Api Login\\Servicios\\EliminarContactoServices.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T04:00:17.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEliminarContacto.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IEliminarContacto.cs",
+              "RelativeDocumentMoniker": "Api Login\\Interfaces\\IEliminarContacto.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IEliminarContacto.cs",
+              "RelativeToolTip": "Api Login\\Interfaces\\IEliminarContacto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T03:59:12.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEditarContacto.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IEditarContacto.cs",
+              "RelativeDocumentMoniker": "Api Login\\Interfaces\\IEditarContacto.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IEditarContacto.cs",
+              "RelativeToolTip": "Api Login\\Interfaces\\IEditarContacto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T03:19:20.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditarContactoService.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\EditarContactoService.cs",
+              "RelativeDocumentMoniker": "Api Login\\Servicios\\EditarContactoService.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\EditarContactoService.cs",
+              "RelativeToolTip": "Api Login\\Servicios\\EditarContactoService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T03:19:02.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddContactoService.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\AddContactoService.cs",
+              "RelativeDocumentMoniker": "Api Login\\Servicios\\AddContactoService.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\AddContactoService.cs",
+              "RelativeToolTip": "Api Login\\Servicios\\AddContactoService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T03:14:05.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IContacto.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IContacto.cs",
+              "RelativeDocumentMoniker": "Api Login\\Interfaces\\IContacto.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IContacto.cs",
+              "RelativeToolTip": "Api Login\\Interfaces\\IContacto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T03:12:30.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LeerRegistros.cs",
-              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\LeerRegistros.cs",
-              "RelativeDocumentMoniker": "Api Login\\Models\\LeerRegistros.cs",
-              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\LeerRegistros.cs",
-              "RelativeToolTip": "Api Login\\Models\\LeerRegistros.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAAB9AAAA",
+              "Title": "Registros.json",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Registros.json",
+              "RelativeDocumentMoniker": "Api Login\\Registros.json",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Registros.json",
+              "RelativeToolTip": "Api Login\\Registros.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-05T20:51:28.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IValidarLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IValidarLogin.cs",
+              "RelativeDocumentMoniker": "Api Login\\Interfaces\\IValidarLogin.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IValidarLogin.cs",
+              "RelativeToolTip": "Api Login\\Interfaces\\IValidarLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T19:24:58.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ValidarLoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\ValidarLoginService.cs",
+              "RelativeDocumentMoniker": "Api Login\\Servicios\\ValidarLoginService.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\ValidarLoginService.cs",
+              "RelativeToolTip": "Api Login\\Servicios\\ValidarLoginService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T18:21:59.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ValidarLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\ValidarLogin.cs",
+              "RelativeDocumentMoniker": "Api Login\\Models\\ValidarLogin.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\ValidarLogin.cs",
+              "RelativeToolTip": "Api Login\\Models\\ValidarLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T18:19:54.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsuarioCredenciales.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\UsuarioCredenciales.cs",
+              "RelativeDocumentMoniker": "Api Login\\Models\\UsuarioCredenciales.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\UsuarioCredenciales.cs",
+              "RelativeToolTip": "Api Login\\Models\\UsuarioCredenciales.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T18:16:49.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetUsuariosSevice.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\GetUsuariosSevice.cs",
+              "RelativeDocumentMoniker": "Api Login\\Servicios\\GetUsuariosSevice.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\GetUsuariosSevice.cs",
+              "RelativeToolTip": "Api Login\\Servicios\\GetUsuariosSevice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T17:40:00.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IGetUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IGetUsuarios.cs",
+              "RelativeDocumentMoniker": "Api Login\\Interfaces\\IGetUsuarios.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IGetUsuarios.cs",
+              "RelativeToolTip": "Api Login\\Interfaces\\IGetUsuarios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T17:38:46.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Program.cs",
+              "RelativeDocumentMoniker": "Api Login\\Program.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Program.cs",
+              "RelativeToolTip": "Api Login\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T17:13:15.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegistrarUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\RegistrarUsuarioService.cs",
+              "RelativeDocumentMoniker": "Api Login\\Servicios\\RegistrarUsuarioService.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Servicios\\RegistrarUsuarioService.cs",
+              "RelativeToolTip": "Api Login\\Servicios\\RegistrarUsuarioService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBIAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T17:11:21.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IRegistrarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IRegistrarUsuario.cs",
+              "RelativeDocumentMoniker": "Api Login\\Interfaces\\IRegistrarUsuario.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Interfaces\\IRegistrarUsuario.cs",
+              "RelativeToolTip": "Api Login\\Interfaces\\IRegistrarUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T17:09:16.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Api Login",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Api Login.csproj",
+              "RelativeDocumentMoniker": "Api Login\\Api Login.csproj",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Api Login.csproj",
+              "RelativeToolTip": "Api Login\\Api Login.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-05T16:31:24.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Api Login\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\Usuario.cs",
+              "RelativeToolTip": "Api Login\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:25:09.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contacto.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\Contacto.cs",
+              "RelativeDocumentMoniker": "Api Login\\Models\\Contacto.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\Contacto.cs",
+              "RelativeToolTip": "Api Login\\Models\\Contacto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T16:19:56.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DBUser.cs",
+              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\DBUser.cs",
+              "RelativeDocumentMoniker": "Api Login\\Models\\DBUser.cs",
+              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\DBUser.cs",
+              "RelativeToolTip": "Api Login\\Models\\DBUser.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T16:02:43.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Registros.json",
-              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Registros.json",
-              "RelativeDocumentMoniker": "Api Login\\Registros.json",
-              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Registros.json",
-              "RelativeToolTip": "Api Login\\Registros.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAACnAQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-05T15:58:09.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Api Login\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Api Login\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBgAAAA/AAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAIAwwC8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T15:56:59.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GuardarRegistro.cs",
-              "DocumentMoniker": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\GuardarRegistro.cs",
-              "RelativeDocumentMoniker": "Api Login\\Models\\GuardarRegistro.cs",
-              "ToolTip": "C:\\Users\\Ronny\\source\\repos\\Api Login\\Api\\Api Login\\Models\\GuardarRegistro.cs",
-              "RelativeToolTip": "Api Login\\Models\\GuardarRegistro.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAB8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T15:53:31.012Z",
               "EditorCaption": ""
             }
           ]
