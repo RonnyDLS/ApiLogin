@@ -7,23 +7,116 @@
     <link rel="stylesheet" href="estilos.css">
     
 </head>
-<body>
+<body style="background: url(img/Bienvenida3.jpg); background-size: cover; ">
     <div class="contentBien">
-        <div class="volver"><a href="Login.html">Volver</a></div>
+        <div class="volver"><a href="Login.html">Cerrar sesión</a></div>
         <div class="fondoTrasparete">
             <div class="caja">
-                <h1>Bienvenid@</h1>
-                <p id="nombreCompleto"></p>
+                <h1 class="titulo">Datos del usuario</h1>
+                <div class="infEstanda">
+                    <p class="subTitulos">Nombre: <p class="info" id="nombre"></p></p>
+                </div>
+                <div class="infEstanda">
+                    <p class="subTitulos">Email: <p class="info" id="email"></p></p>
+                </div>
+                <div class="infEstanda">
+                    <p class="subTitulos">Dirección: <p class="info" id="direccion"></p></p>
+                </div>
+                
+                <p class="contactos btn">Contactos <a href="addContacto.html">Agregar</a></p>
+                
+                <div class="caja_contactos">
+                    <div class="cont_titulo">
+                        <div>Tipo</div>
+                        <div>Descripción</div>
+                        <div>Opción</div>
+                    </div>
+                    <div id="id_cj_info">
+                        
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
     <script> 
+        const jsonValidacion = localStorage.getItem("data")
+        const validacion = JSON.parse(jsonValidacion)
+        const url = "https://localhost:7058/api/Login/ObtenerUsuarios"
+        fetch(url)
+            .then(res => res.json())
+            .then(datos => {
+                for(let i=0; i<datos.length; i++){
+                    if(datos[i].id === validacion.id){
+                        document.getElementById('nombre').innerHTML = datos[i].nombre;
+                        document.getElementById('email').innerHTML = datos[i].email;
+                        document.getElementById('direccion').innerHTML = datos[i].direccion;
+                        
+                        const cjContactos = document.getElementById('id_cj_info')
 
-    var datosUser = localStorage.getItem('datosUser');
-    var user = JSON.parse(datosUser);
-    //console.log(datosUser)
-    document.getElementById('nombreCompleto').innerHTML = user.nombre+' '+user.apellido;
+                        for(let e=0; e<datos[i].contactos.length; e++){
 
+                            const Registro = document.createElement('div')
+                            Registro.className= "cj_info"
+
+                            const tipo = document.createElement('div')
+                            tipo.className = "tipo"
+                            tipo.innerHTML = datos[i].contactos[e].contacto
+
+                            const descripción = document.createElement('div')
+                            descripción.className = "descripcion"
+                            descripción.innerHTML = datos[i].contactos[e].descripcion
+
+                            const cjbtn = document.createElement('div')
+                            cjbtn.className = "btn_opcion"
+
+                            const btnEditar = document.createElement('button')
+                            btnEditar.className="amarillo"
+                            btnEditar.innerHTML = "Editar"
+
+                            const btnEliminar = document.createElement('button')
+                            btnEliminar.className="rojo"
+                            btnEliminar.innerHTML = "Eliminar"
+
+                            btnEditar.addEventListener('click', function(){
+                                //const RegistroSeleccionado = this.closest('.cj_info')
+                                //const valorTipoContacto = document.querySelector('.tipo').innerHTML;
+                                //console.log("Registro completo:", RegistroSeleccionado)
+                                //console.log("Tipo:", valorTipoContacto)
+
+                                console.log( datos[i].contactos[e])
+                                const obj = datos[i].contactos[e]
+                                localStorage.setItem('editarContacto', JSON.stringify(datos[i].contactos[e]))
+                                window.location.href = "editContacto.html"
+                            })
+
+                            btnEliminar.addEventListener('click', function(){
+
+                                const urlEliContacto = `https://localhost:7058/api/Login/${datos[i].id}`
+                                fetch(urlEliContacto, {
+                                    method : "DELETE",
+                                    body : JSON.stringify(datos[i].contactos[e]),
+                                    headers : {
+                                        "Content-Type" : "Application/json"
+                                    } 
+                                })
+                                location.reload();
+                            })
+
+                            Registro.appendChild(tipo)
+                            Registro.appendChild(descripción)
+                            Registro.appendChild(cjbtn)
+                                cjbtn.appendChild(btnEditar)
+                                cjbtn.appendChild(btnEliminar)
+                            cjContactos.appendChild(Registro)
+
+                        }
+                        
+                    }
+                }
+            })
+
+        
     </script>
 </body>
 </html>

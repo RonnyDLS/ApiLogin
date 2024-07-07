@@ -1,9 +1,7 @@
 
 class Usuario{
-    constructor(nombre, apellido, usuario, pass){
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.usuario = usuario;
+    constructor(email, pass){
+        this.email = email;
         this.pass = pass;
     }
 }
@@ -16,28 +14,26 @@ function evento(b)
 {
     b.preventDefault();
     var datos = new FormData(formularioLogin);
-
-    user = datos.get('user');
-    pass = datos.get('pass');
     
-    const url = 'https://localhost:7058/api/Login/ObtenerRegistros';
-    fetch(url)
+    const user = new Usuario(datos.get('user'),datos.get('pass'))
+    const userJson = JSON.stringify(user)
+
+    const url = 'https://localhost:7058/api/Login/Validar';
+    fetch(url,{
+        method : "POST",
+        body : userJson,
+        headers : {
+            "Content-Type" : "application/json"
+        }
+        
+    })
         .then(res => res.json())
         .then(datosObtenidos => {
-            
-            for(let i = 0; i<datosObtenidos.length; i++){
-                //console.log(datosObtenidos[i].email);
-                //console.log(datosObtenidos[i]);
-                
-
-                if(datosObtenidos[i].email == datos.get('user') && datosObtenidos[i].pass == datos.get('pass')){
-                    var user = new Usuario(datosObtenidos[i].nombre,datosObtenidos[i].apellido,datosObtenidos[i].email,datosObtenidos[i].pass);
-                    jsonUser = JSON.stringify(user);
-
-                    localStorage.setItem('datosUser', jsonUser);
-                    window.open('Bienvenida.html','_self');
-                }
-                
+            if(datosObtenidos.confimacion === true){
+                localStorage.setItem("data", JSON.stringify(datosObtenidos))
+                location.href = "Bienvenida.html";
+            }else{
+                alert("Credenciales incorrectas")
             }
         })
     

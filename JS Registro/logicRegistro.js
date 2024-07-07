@@ -1,14 +1,3 @@
-
-
-class Registro{
-    constructor(nombre, apellido, email,pass){
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.email = email;
-        this.pass = pass;
-    }
-}
-
 var formulario = document.getElementById('form_regi');
 
 formulario.addEventListener('submit', function(a){
@@ -20,22 +9,31 @@ formulario.addEventListener('submit', function(a){
     apellido = datos.get('apellido_regi');
     email = datos.get('email_regi');
     pass = datos.get('password_regi');
+    direc = datos.get('direccion_regi');
 
-    var p1 = new Registro(nombre,apellido,email,pass);
-    
-    const jsonP1 = JSON.stringify(p1);
+    const obj = {
+        "id": 0,
+        "nombre": `${nombre}`,
+        "apellido": `${apellido}`,
+        "email": `${email}`,
+        "pass": `${pass}`,
+        "direccion": `${direc}`,
+        "contactos": []
+      }
+      const Userjson = JSON.stringify(obj)
 
     const url = 'https://localhost:7058/api/Login/Registrar';
     fetch(url, {
         method: 'POST',
-        body: jsonP1,
+        body: Userjson,
         headers: {
-            'content-type':'application/json'
+            'Content-Type':'application/json'
         }
     })
     .then(res => res.text())
     .then(mensage => {
         alert(mensage)
-        location.reload();
+        //location.reload();
+        window.location.href = "Login.html"
     })
 })

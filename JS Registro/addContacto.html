@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar contactos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <article class="contenedor_add">
+        <div class="volver"><a href="Bienvenida.html">Volver</a></div>
+        <form id="form_add" class="form_add">
+            <div class="img"></div>
+            <div class="inpus_add">
+                <p>Contacto</p>
+                <div><input type="text" name="contacto" id="contacto" required></div>
+                <p>Descripción</p>
+                <div><input type="text" name="descripcion" id="descripcion"></div>                
+            </div>
+            <div class="btn_aceptarEdit"><button type="submit">Aceptar</button></div>
+        </form>
+        
+    </article>
+    <script>
+        const formulario = document.getElementById("form_add")
+        formulario.addEventListener('submit',enviarContacto)
+
+        function enviarContacto(e){
+            e.preventDefault();
+
+            const datosForm = new FormData(formulario);
+
+            const contacto = 
+            {
+                "contacto": `${datosForm.get('contacto')}`,
+                "descripcion": `${datosForm.get('descripcion')}`
+            }
+
+            const validacion = localStorage.getItem("data")
+
+            const objValidacion = JSON.parse(validacion)
+            const jsonContacto = JSON.stringify(contacto)
+            
+            const url = `https://localhost:7058/api/Login/AddContacto?idUsuario=${objValidacion.id}`;
+            fetch(url, {
+                method : "POST",
+                body : jsonContacto,
+                headers: {
+                    "Content-Type" : "Application/json"
+                }
+            })
+                .then(res => res.text())
+                .then(info => {
+                    alert(info)
+                    document.getElementById('contacto').value = ""
+                    document.getElementById('descripcion').value = ""
+                })
+           
+            
+        }
+    </script>
+</body>
+</html>

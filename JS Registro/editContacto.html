@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar contactos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <article class="contenedor_add">
+        <div class="volver"><a href="Bienvenida.html">Volver</a></div>
+        <form id="form_edit" class="form_add">
+            <div class="img"></div>
+            <div class="inpus_add">
+                <p>Tipo</p>
+                <div><input type="text" name="tipoName" id="tipo"></div>
+                <p>Descripción</p>
+                <div><input type="text" name="descripcionName" id="descripcion"></div>                
+            </div>
+            <div class="btn_aceptarEdit"><button type="submit">Actualizar</button></div>
+        </form>
+        
+    </article>
+
+    <script>
+        const editarContacto = localStorage.getItem('editarContacto')
+        const objContacto = JSON.parse(editarContacto)
+        const tipo = document.getElementById('tipo')
+        tipo.value = objContacto.contacto
+
+        const descripcion = document.getElementById('descripcion')
+        descripcion.value = objContacto.descripcion
+
+        const jsonUser = localStorage.getItem('data')
+        const objUser = JSON.parse(jsonUser)
+        
+        const formularioEdit = document.getElementById('form_edit')
+        formularioEdit.addEventListener('submit', editar)
+
+        function editar(e){
+            e.preventDefault()
+
+            const datos = new FormData(formularioEdit)
+
+            const objContactoEditado = 
+            {
+                id: objContacto.id, 
+                contacto: datos.get('tipoName'), 
+                descripcion: datos.get('descripcionName')
+            }
+
+            const url = `https://localhost:7058/api/Login/${objUser.id}`;
+            fetch(url, {
+                method : "PUT",
+                body : JSON.stringify(objContactoEditado),
+                headers : {
+                    "Content-Type" : "Application/json"
+                }
+            })
+                .then(res => res.text())
+                .then(msj => {
+                    alert(msj)
+                    window.location.href = "Bienvenida.html"
+                })
+
+        }
+
+
+
+        
+    </script>
+    
+</body>
+</html>

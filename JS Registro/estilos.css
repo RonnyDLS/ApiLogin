@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* ----- Login----- */
@@ -87,6 +87,11 @@
 .datos{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "n a"
+    "e p"
+    "d d"
+    ;
     gap: 20px;
     margin: 30px 0;
 }
@@ -121,6 +126,9 @@
     text-decoration: none;
     background-color: rgb(225, 69, 69);
 }
+.direccion_regi{
+    grid-area: d;
+}
 
 /* ----- Bienvenida ----- */
 .contentBien{
@@ -129,32 +137,20 @@
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
+    overflow-y: scroll;
 }
 .fondoTrasparete{
     display: flex;
-    height: 94vh;
 }
 .caja{
-    background-color: rgba(12, 49, 92, 0.848);
-    width: 100%;
-    padding: 60px 0;
-    display: block;
+    background-color: rgba(255, 255, 255, 0.936);
+    width: 70%;
+    padding: 60px;
+    height: 100%;
+    margin: 80px auto;
+}
+.volver{
     text-align: center;
-    margin: auto auto;
-}
-.caja>h1{
-    font-size: 100px;
-    font-family: 'Cooper Black';
-    margin-bottom: 1rem;
-    color: rgb(216, 16, 238);
-}
-.caja>p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-    color: rgb(0, 162, 255);
-    font-weight: bold;
-}
-.volver{text-align: center;
 }
 .volver>a{
     text-decoration: none;
@@ -166,4 +162,118 @@
 }
 .volver>a:hover{
     background-color: rgb(113, 33, 187);
+}
+.titulo{
+    margin-bottom: 30px;
+}
+.subTitulos{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.contactos{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.caja>.infEstanda{
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.btn>a{
+    padding: 7px 20px;
+    font-size: 14px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+}
+.cont_titulo{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.2fr;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.132);
+    margin-top: 10px;
+    font-weight: bold;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.397) ;
+    gap: 10px;
+}
+.contactos_edit{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.2fr;
+    margin-bottom: 10px;
+    grid-area: 20px;
+    gap: 10px;
+}
+.contactos_edit>div>input{
+    width: 100%;
+    padding: 5px;
+    border: solid 1px rgba(128, 128, 128, 0.637);
+}
+.cj_info{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.2fr;
+    background-color: rgba(128, 128, 128, 0.133);
+    padding: 7px;
+    margin-bottom: 2px;
+    align-items: center;
+    gap: 10px;
+}
+.btn_opcion{
+    display: flex;
+    justify-content: space-around;
+}
+.btn_opcion> button{
+    padding: 5px;
+    border: none;
+    color: white;
+}
+.rojo{
+    background-color: rgb(191, 57, 57);
+}
+.amarillo{
+    background-color: rgb(154, 131, 0);
+}
+.btn_aceptarEdit>button{
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(20, 88, 247);
+    width: 100%;
+}
+/* --- Add User --- */
+.contenedor_add{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    height: 190px;
+    background-image: url(img/contactos.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 500px;
+    margin-bottom: 30px;
+}
+.form_add{
+    width: 35%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.286);
+}
+.inpus_add{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+.inpus_add>div>input{
+    width: 100%;
+    padding: 5px;
 }
