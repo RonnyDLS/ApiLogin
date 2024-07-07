@@ -36,6 +36,5 @@ function evento(b)
                 alert("Credenciales incorrectas")
             }
         })
-    
 }
 
